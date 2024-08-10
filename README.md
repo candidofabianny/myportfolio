@@ -1,4 +1,4 @@
-# Portfolio Template
+# Portfolio
 
 I startedd this portfolio based and inspired on Shaqdeff and ended up using only a few elements of his template
 
