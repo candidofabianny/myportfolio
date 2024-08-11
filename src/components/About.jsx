@@ -6,7 +6,7 @@ import { SectionWrapper } from '../hoc';
 const About = () => {
     return (
     <div className='flex flex-col justify-center w-full h-full mb-12'>
-         <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introducing</p>
         <h2 className={styles.sectionHeadText}>My Portfolio.</h2>
       </motion.div>

@@ -9,6 +9,7 @@ import {
   Projects,
 } from './components';
 import { Loader } from '@react-three/drei';
+import Banner from './components/Banner';
 
 const App = () => {
   return (
@@ -27,13 +28,13 @@ const App = () => {
         </div>
         <Projects />
         <div
-          className="bg-cover bg-center bg-no-repeat 
-            rounded-tl-[150px] rounded-br-[150px]">
-          <div
-            className="bg-experienceLight bg-cover bg-center 
-            bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
-            <Experience />
-          </div>
+          className="bg-cherry bg-cover
+            rounded-tl-[150px]">
+            <Banner />   
+        </div> 
+        <div className="bg-experience bg-left bg-cover">
+        <div className=''>
+        <Experience /></div>
         </div>
         <div className="relative z-0">
           <Contact />

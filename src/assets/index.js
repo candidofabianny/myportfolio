@@ -30,7 +30,6 @@ import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
-import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
@@ -61,7 +60,7 @@ export {
   redux,
   tailwind,
   typescript,
-  komikult,
+
   leaderboard,
   movie,
   nyeusi,
