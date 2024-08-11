@@ -20,9 +20,9 @@ const Projects = () => {
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          These projects demonstrate my expertise with practical examples of
-          some of my work, including brief descriptions and links to code
-          repositories and live demos. They were developed mostly using Javascript, Typescript, TailwindCSS and HTML.
+          Take a look at these projects to see my skills in action. Each one includes a brief description, 
+          with links to the code and live demos. 
+          I built them using JavaScript, TypeScript, TailwindCSS, and HTML.
         </motion.p>
       </div>
 
