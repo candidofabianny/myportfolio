@@ -3,6 +3,7 @@ import logotext from './logo/logo-text-black.png';
 
 import click from './icons/click.png'
 import clickpurple from './icons/clickpurple.png'
+import linkedin from './icons/linkedin.png'
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -28,7 +29,6 @@ import typescript from './tech/typescript.png';
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
 
 import leaderboard from './projects/leaderboard.png';
 import movie from './projects/movie-metro.png';
@@ -55,7 +55,7 @@ export {
   resume,
   send,
   sendHover,
-
+ linkedin,
   reactjs,
   redux,
   tailwind,
@@ -68,5 +68,4 @@ export {
   coverhunt,
   dcc,
   kelhel,
-  microverse,
 };

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
 import { fadeIn, textVariant } from '../utils/motion';
-import { click, clickpurple, github, gitpurple, logo } from '../assets';
+import { click, clickpurple, gitpurple } from '../assets';
 
 
 const Projects = () => {
@@ -66,14 +66,7 @@ const Projects = () => {
             className="h-[55px] w-[55px] p-2"></img></a>
       </div>
     </div>
-    <div class="item item-4">
-      <div class="caption">
-        <h1>PAULA AMARAL SCHOOL</h1>
-        <p>This card has a frosted glass effect using the backdrop-filter property. Try hovering over it to see the effect change.</p>
-      </div>
-    </div>
   </div>
-  
 </div>
 
     </div>

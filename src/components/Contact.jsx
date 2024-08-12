@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-import { send, sendHover } from '../assets';
+import { github, linkedin, send, sendHover } from '../assets';
 
 const Contact = () => {
   const formRef = useRef();
@@ -29,21 +29,21 @@ const Contact = () => {
     //click on create a new template then click on save.
     emailjs
       .send(
-        'serviceID', // paste your ServiceID here (you'll get one when your service is created).
-        'templateID', // paste your TemplateID here (you'll find it under email templates).
+        'service_7n0ea5q', // paste your ServiceID here (you'll get one when your service is created).
+        'template_v1qjuwl', // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,
-          to_name: 'YourName', // put your name here.
+          to_name: 'Fabianny Candido', // put your name here.
           from_email: form.email,
-          to_email: 'youremail@gmail.com', //put your email here.
+          to_email: 'candidofabianny@gmail.com', //put your email here.
           message: form.message,
         },
-        'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
+        'DYWE7rVO5lZm-gwW1' //paste your Public Key here. You'll get it in your profile section.
       )
       .then(
         () => {
           setLoading(false);
-          alert('Thank you. I will get back to you as soon as possible.');
+          alert('Thank you! Your message was received, I will get back to you as soon as possible.');
 
           setForm({
             name: '',
@@ -64,10 +64,14 @@ const Contact = () => {
       className="-mt-[8rem] xl:flex-row flex-col-reverse 
       flex gap-10 overflow-hidden">
       <motion.div
-        variants={slideIn('left', 'tween', 0.2, 1)}
+        variants={slideIn('right', 'tween', 0.2, 1)}
         className="flex-[0.75] bg-jet p-8 rounded-2xl">
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
+        <p className={styles.sectionHeadText}>Stay in touch</p>
+        <a href='https://github.com/candidofabianny'><img
+        src={linkedin}
+        alt="fabianny linkedin link"
+        className='lg:h-[50px] h-[48px] lg:w-[50px] w-[48px] m-4'
+        ></img></a>
 
         <form
           ref={formRef}
@@ -136,12 +140,6 @@ const Contact = () => {
               document.querySelector('.contact-btn').setAttribute('src', send);
             }}>
             {loading ? 'Sending' : 'Send'}
-            <img
-              src={send}
-              alt="send"
-              className="contact-btn sm:w-[26px] sm:h-[26px] 
-              w-[23px] h-[23px] object-contain"
-            />
           </button>
         </form>
       </motion.div>
