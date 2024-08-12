@@ -139,6 +139,7 @@
   margin: 0 auto;
   width: 100%;
 }
+
 .gallery-wrap {
   display: flex;
   flex-direction: row;
@@ -208,6 +209,50 @@
 }
 .item-3 { 
   background-image: url('/src/assets/projects/spotlight.png');
+}
+
+
+.itemMobile {
+  flex-direction: column;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  filter: grayscale(1) brightness(90%);
+  &:active .caption {
+    opacity:1;
+  }
+  &:active:before {
+    opacity:0;
+  }
+}
+
+.gallery-wrapMobile {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  width: 100%;
+  height: 800px;
+  border-radius:2rem;
+  box-shadow: 2px 2px 4px rgba( 0, 0, 0, 0.25 );
+  background:rgba( 255, 255, 255, 0.0 );
+}
+.captionMobile {
+  position:fixed;
+  left:.5rem;
+  right:.5rem;
+  bottom:0;  
+  margin:1rem;
+  padding:1rem;
+  color:#eee;
+  border:solid 1px rgba( 255, 255, 255, 0.25 );
+  border-radius: 2rem;
+  box-shadow: 2px 2px 4px rgba( 0, 0, 0, 0.25 );
+  backdrop-filter: blur( 8.0px );
+  opacity:1;
+  & p {
+    width: 100%;
+  }
 }
 
 .btn-social-cp {
