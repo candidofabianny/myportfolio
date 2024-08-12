@@ -27,7 +27,7 @@ const Projects = () => {
       </div>
 
   <div class="flex flex-col mt-6 gap-4">
-    <div className={`${styles.itemProjects} bg-[url('src/assets/projects/transpareser.png')]`}>
+    <div className={`${styles.itemProjects} bg-[url('/src/assets/projects/transpareser.png')]`}>
       <div className={styles.captionProjects}>
         <h1 className={`${styles.cardTitle} text-white`}>TRANSPARESER</h1>
         <p className='text-white text-[78%] xmd:text-[100%]'>Developed and designed for psychologist Carol Saibert specialized in authenticity development. The site features a authentic interface designed with over six pages to enable easy navigation through the services.</p>
@@ -37,7 +37,7 @@ const Projects = () => {
             className="h-[55px] w-[55px] p-2"></img></a>
       </div>
     </div>
-    <div className={`${styles.itemProjects} bg-[url('src/assets/projects/eraumavez.png')]`}>
+    <div className={`${styles.itemProjects} bg-eraumavez`}>
       <div className={styles.captionProjects}>
         <h1 className={`${styles.cardTitle} text-purple`}>ERA UMA VEZ...</h1>
         <p className='hidden md:block text-[#5e396b]'>An innovative project that I helped develop, for teachers supported by the government of my hometown to promote reading and storytelling among young children, using technology as a mean to support early childhood education. The platform offers a colorful experience, allowing users to watch, read, or listen to a variety of selected stories.</p>
@@ -54,7 +54,7 @@ const Projects = () => {
             </div>
       </div>
     </div>
-    <div className={`${styles.itemProjects} bg-[url('src/assets/projects/spotlight.png')]`}>
+    <div className={`${styles.itemProjects} bg-[url('/src/assets/projects/spotlight.png')]`}>
       <div className={styles.captionProjects}>
         <h1 className={`${styles.cardTitle} text-yellow`}>SPOTLIGHT</h1>
         <p className='hidden md:block text-black'>developed during an internship, aimed to empower underserved communities by connecting Atlanta residents with social organizations. Although the project made significant progress, the decision was made to focus on the Android app, leading to the discontinuation of the web version's.</p>

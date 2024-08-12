@@ -48,6 +48,7 @@ export default {
         '3xl': '1800px',
       },
       backgroundImage: {
+        eraumavez: "url('/src/assets/projects/eraumavez.png')",
         about:
           'linear-gradient(165deg, rgba(244,244,246,1) 100%, rgba(122,122,122,1) 100%)',
         experience:
