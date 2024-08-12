@@ -28,7 +28,7 @@ const Projects = () => {
 
       <div class="container">
   <div class="gallery-wrap">
-    <div class="item item-1 object-left">
+    <div class="item item-1 bg-[url('src/assets/projects/transpareser.png')]">
       <div class="caption">
         <h1 className={`${styles.cardTitle} text-white`}>TRANSPARESER</h1>
         <p className='text-white text-[78%] xmd:text-[100%]'>Developed and designed for psychologist Carol Saibert specialized in authenticity development. The site features a authentic interface designed with over six pages to enable easy navigation through the services.</p>
@@ -38,7 +38,7 @@ const Projects = () => {
             className="h-[55px] w-[55px] p-2"></img></a>
       </div>
     </div>
-    <div class="item item-2">
+    <div class="item bg-[url('src/assets/projects/eraumavez.png')]">
       <div class="caption">
         <h1 className={`${styles.cardTitle} text-purple`}>ERA UMA VEZ...</h1>
         <p className='hidden md:block text-[#5e396b]'>An innovative project that I helped develop, for teachers supported by the government of my hometown to promote reading and storytelling among young children, using technology as a mean to support early childhood education. The platform offers a colorful experience, allowing users to watch, read, or listen to a variety of selected stories.</p>
