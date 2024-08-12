@@ -1,5 +1,4 @@
 import logo from './logo/logo.svg';
-import logotext from './logo/logo-text-black.png';
 
 import click from './icons/click.png'
 import clickpurple from './icons/clickpurple.png'
@@ -37,7 +36,6 @@ import space from './projects/space-hub.png';
 
 export {
   logo,
-  logotext,
   click,
   clickpurple,
   backend,
