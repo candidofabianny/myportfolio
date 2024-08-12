@@ -32,10 +32,9 @@ const App = () => {
             rounded-tl-[150px]">
             <Banner />   
         </div> 
-        <div className="bg-experience bg-left bg-cover">
-        <div className=''>
+        <div className="bg-[url('/src/assets/backgrounds/buenosaires.png')] bg-left bg-cover">
+       
         <Experience /></div>
-        </div>
         <div className="relative z-0">
           <Contact />
         </div>
