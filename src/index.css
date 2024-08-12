@@ -110,24 +110,6 @@
   animation: slide 5s linear infinite;
 }
 
-::-webkit-scrollbar {
-  width: 6px;
-  background-color: var(--color-1);
-}
-::-webkit-scrollbar-button {
-  background-color: var(--color-1);
-}
-::-webkit-scrollbar-thumb {
-  height: 50px;
-  background-color: var(--color-2);
-}
-*,
-*:after,
-*::before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 .gallery-wrap {
   display: flex;
@@ -138,8 +120,9 @@
   box-shadow: 2px 2px 4px rgba( 0, 0, 0, 0.25 );
   background:rgba( 255, 255, 255, 0.0 );
 }
+
 .item {
-  flex: 1;
+  flex: 3;
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -153,18 +136,8 @@
   &:hover .caption {
     opacity:1;
   }
-  &:before {
-    content:"";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    transition: opacity .2s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
-    opacity:.3;
-    pointer-events:none;
-  }
 }
+
 .caption {
   position:fixed;
   left:.5rem;
@@ -191,7 +164,7 @@
 
 .item-2 { 
   border-radius:2rem 0rem 0rem 2rem;
-  background-image:url('src/assets/projects/transpareser.png')
+  background-image:url('src/assets/projects/eraumavez.png')
 }
 
 .item-3 { 
