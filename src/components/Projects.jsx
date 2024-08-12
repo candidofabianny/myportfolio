@@ -27,7 +27,7 @@ const Projects = () => {
       </div>
 
   <div class="flex flex-col mt-6 gap-4">
-    <div class="flex flex-col items-end justify-end item bg-[url('src/assets/projects/transpareser.png')] w-full  h-[400px] hover:h-[600px] bg-cover bg-start">
+    <div class="flex flex-col items-end justify-end item bg-[url('src/assets/projects/transpareser.png')] w-full h-[400px] hover:h-[600px] bg-cover bg-start">
       <div class="caption m-4">
         <h1 className={`${styles.cardTitle} text-white`}>TRANSPARESER</h1>
         <p className='text-white text-[78%] xmd:text-[100%]'>Developed and designed for psychologist Carol Saibert specialized in authenticity development. The site features a authentic interface designed with over six pages to enable easy navigation through the services.</p>
