@@ -55,7 +55,7 @@ const Projects = () => {
             </div>
       </div>
     </div>
-    <div class="item item-3">
+    <div class="item bg-[url('src/assets/projects/spotlight.png')]">
       <div class="caption">
         <h1 className={`${styles.cardTitle} text-yellow`}>SPOTLIGHT</h1>
         <p className='hidden md:block text-white'>developed during an internship, aimed to empower underserved communities by connecting Atlanta residents with social organizations. Although the project made significant progress, the decision was made to focus on the Android app, leading to the discontinuation of the web version's.</p>
