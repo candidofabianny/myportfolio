@@ -3,7 +3,8 @@ const styles = {
   interWidth: 'lg:w-[80%] w-[100%]',
 
   responsive: 'text-[2rem] md:text-[3.5rem] lg:text-[4rem]',
-  item: 'flex flex-col items-end justify-end filter grayscale hover:filter-none w-full h-[400px] hover:h-[600px] bg-cover bg-start',
+  itemProjects: 'flex flex-col items-end justify-end w-full h-[400px] hover:h-[600px] grayscale hover:grayscale-0 bg-cover bg-start',
+  captionProjects: 'p-4 mx-[5rem] my-[1rem] border rounded-3xl shadow-md backdrop-blur-md',
 
   paddings: 'sm:p-16 xs:p-8 px-6 py-12',
   yPaddings: 'sm:py-16 xs:py-8 py-12',
