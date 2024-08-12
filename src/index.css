@@ -110,17 +110,66 @@
   animation: slide 5s linear infinite;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: var(--color-1);
+}
+::-webkit-scrollbar-button {
+  background-color: var(--color-1);
+}
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: var(--color-2);
+}
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 4px rgba( 0, 0, 0, 0.25 );
+  background:rgba( 255, 255, 255, 0.0 );
+}
 .item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
   filter: grayscale(1) brightness(90%);
   transition: flex 0.4s;
   &:hover {
+    flex: 7;
     filter:grayscale(0) saturate(1.3);
   }
+  &:hover .caption {
+    opacity:1;
+  }
+  &:before {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: opacity .2s cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+    opacity:.3;
+    pointer-events:none;
+  }
 }
-
 .caption {
+  position:fixed;
   left:.5rem;
   right:.5rem;
+  bottom:0;  
   margin:1rem;
   padding:1rem;
   color:#eee;
@@ -128,6 +177,26 @@
   border-radius: 2rem;
   box-shadow: 2px 2px 4px rgba( 0, 0, 0, 0.25 );
   backdrop-filter: blur( 8.0px );
+  transition: opacity 0.2s ease, backdrop-filter 1s cubic-bezier(0.860, 0.000, 0.070, 1.000);
+  opacity:0;
+  & p {
+    width: 100%;
+  }
+}
+
+.item-1 { 
+  border-radius:2rem 0rem 0rem 2rem;
+  background-image:url('src/assets/projects/transpareser.png')
+}
+
+.item-2 { 
+  border-radius:2rem 0rem 0rem 2rem;
+  background-image:url('src/assets/projects/transpareser.png')
+}
+
+.item-3 { 
+  border-radius:2rem 0rem 0rem 2rem;
+  background-image:url('src/assets/projects/transpareser.png')
 }
 
 .btn-social-cp {
