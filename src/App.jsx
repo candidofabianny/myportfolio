@@ -8,14 +8,12 @@ import {
   Tech,
   Projects,
 } from './components';
-import { Loader } from '@react-three/drei';
 import Banner from './components/Banner';
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0">
-        <Loader/>
         <div>
           <Navbar />
           <Hero />
