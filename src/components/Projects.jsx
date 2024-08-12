@@ -28,7 +28,7 @@ const Projects = () => {
 
       <div class="container">
   <div class="gallery-wrap">
-    <div class="item item-1 bg-[url('src/assets/projects/transpareser.png')]">
+    <div class="item item-1">
       <div class="caption">
         <h1 className={`${styles.cardTitle} text-white`}>TRANSPARESER</h1>
         <p className='text-white text-[78%] xmd:text-[100%]'>Developed and designed for psychologist Carol Saibert specialized in authenticity development. The site features a authentic interface designed with over six pages to enable easy navigation through the services.</p>

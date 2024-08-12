@@ -201,7 +201,7 @@
 
 .item-1 { 
   border-radius:2rem 0rem 0rem 2rem;
- 
+  background-image:url('src/assets/projects/transpareser.png')
 }
 
 .btn-social-cp {
