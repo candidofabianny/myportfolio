@@ -2,6 +2,7 @@
   import { motion } from 'framer-motion';
   import { styles } from '../styles';
   import { SectionWrapper } from '../hoc';
+  import { Link } from 'react-router-dom';
   import { textVariant } from '../utils/motion';
 import { download, logo } from '../assets';
   
@@ -9,7 +10,7 @@ import { download, logo } from '../assets';
     return (
       <>
         <motion.div variants={textVariant()}>
-          <a href="src/assets/company/resume.pdf" className={`${styles.sectionSubText} flex pl-[2rem] gap-2`}>
+          <a href="/CV.pdf" download="/CV.pdf" className={`${styles.sectionSubText} flex pl-[2rem] gap-2`}>
             my curriculum vitae
           <img src={download} 
             alt="download cv"
