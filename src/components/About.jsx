@@ -19,7 +19,6 @@ const About = () => {
       </motion.p>
       </div>
     );
-   
 };
 
 export default SectionWrapper(About, 'about');

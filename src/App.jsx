@@ -25,13 +25,11 @@ const App = () => {
           <Tech />
         </div>
         <Projects />
-        <div
-          className="bg-cherry bg-cover
+        <div className="bg-cherry bg-cover
             rounded-tl-[150px]">
             <Banner />   
         </div> 
         <div className="bg-[url('/src/assets/backgrounds/buenosaires.png')] bg-left bg-cover">
-       
         <Experience /></div>
         <div className="relative z-0">
           <Contact />

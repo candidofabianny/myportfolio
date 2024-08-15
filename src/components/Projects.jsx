@@ -5,7 +5,6 @@ import { styles } from '../styles';
 import { fadeIn, textVariant } from '../utils/motion';
 import { click, clickpurple, gitpurple } from '../assets';
 
-
 const Projects = () => {
   return (
     <div className="-mt-[6rem]">

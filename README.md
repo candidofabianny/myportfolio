@@ -10,7 +10,7 @@ I started this portfolio based and inspired by [@shaqdeff](https://github.com/sh
 
 ## Live Demo
 
-- Click [here](https://shaq-portfolio.netlify.app/) to view the live demo.
+- Click [here](https://fabiannyportfolio.vercel.app/) to view the live demo.
 
 
 ## base

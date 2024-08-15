@@ -5,7 +5,6 @@ import { logo } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
-
   return (
     <nav
       className={`w-full flex items-center py-4 fixed top-0 z-20 xxs:h-[12vh]`}>
@@ -20,8 +19,7 @@ const Navbar = () => {
           <img
             src={logo} 
             alt="logo"
-            className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] mr-14 object-contain"
-          />
+            className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] mr-14 object-contain"/>
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">

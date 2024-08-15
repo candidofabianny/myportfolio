@@ -5,7 +5,6 @@ import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { zoomIn } from '../utils/motion';
 
-
 const Experience = () => {
   return (
     <div className='flex flex-col xs:flex-row py-10'>
@@ -28,7 +27,6 @@ const Experience = () => {
        <p className='text-[30px] xmd:text-[18px] hover:text-yellow xmd:text-white text-yellow  hover:xmd:text-[70px]'>Computer teacher for elementary and high school</p>
        <p className='hover:text-yellow text-white'>social media manager and content creator.</p></li>
         </ul>
-     
      </div>
   );
 };
