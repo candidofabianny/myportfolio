@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-import { linkedin, send, sendHover } from '../assets';
+import { github, send, sendHover } from '../assets';
 
 const Contact = () => {
   const formRef = useRef();
@@ -65,7 +65,7 @@ const Contact = () => {
         className="flex-[0.75] bg-jet p-8 rounded-2xl">
         <p className={styles.sectionHeadText}>Stay in touch</p>
         <a href='https://github.com/candidofabianny'><img
-        src={linkedin}
+        src={github}
         alt="fabianny linkedin link"
         className='lg:h-[50px] h-[48px] lg:w-[50px] w-[48px] m-4'
         ></img></a>

@@ -9,16 +9,6 @@
   src: url('./fonts/arenq.otf');
 }
 
-@font-face {
-  font-family: 'Overcame Bold';
-  src: url('./fonts/overcame-bold.woff');
-}
-
-@font-face {
-  font-family: 'Overcame Outline';
-  src: url('./fonts/overcame-outline.woff');
-}
-
 @fontface {
   font-family: 'Gazpacho Heavy';
   src: url('./fonts/Gazpacho Heavy.ttf');

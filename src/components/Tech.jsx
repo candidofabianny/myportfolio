@@ -17,7 +17,7 @@ const Tech = () => {
                 <div class="bg-[#FFC93C]">JAVASCRIPT</div>
                 <div class="bg-black">NODE.JS</div>
                 <div class="bg-[#18b7ba]">TAILWIND &</div>
-            </div>
+            </div>  
         </div>
         <div class="sliderTech-wrapper">
             <div class="sliderTech mt-8">

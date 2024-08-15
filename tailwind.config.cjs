@@ -65,8 +65,6 @@ export default {
         arenq: ['Arenq'],
         lustria: ['Lustria'],
         gazpachoHeavy: ['Gazpacho Heavy'],
-        overcameBold: ['Overcame Bold'],
-        overcameOutline: ['Overcame Outline'],
         poppins: ['Poppins', 'sans-serif'],
       },
     },
