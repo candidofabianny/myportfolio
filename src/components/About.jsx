@@ -10,7 +10,6 @@ const About = () => {
         <p className={styles.sectionSubText}>Introducing</p>
         <h2 className={styles.sectionHeadText}>My Portfolio.</h2>
       </motion.div>
-
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-beige text-[18px] max-w-3xl leading-[30px]">

@@ -1,14 +1,11 @@
-
-  import { motion } from 'framer-motion';
-  import { styles } from '../styles';
-  import { SectionWrapper } from '../hoc';
-  import { Link } from 'react-router-dom';
-  import { textVariant } from '../utils/motion';
-import { download, logo } from '../assets';
+import { motion } from 'framer-motion';
+import { styles } from '../styles';
+import { SectionWrapper } from '../hoc';
+import { textVariant } from '../utils/motion';
+import { download } from '../assets';
   
   const Banner = () => {
     return (
-      <>
         <motion.div variants={textVariant()}>
           <a href="/CV.pdf" download="/CV.pdf" className={`${styles.sectionSubText} flex pl-[2rem] gap-2`}>
             my curriculum vitae
@@ -20,7 +17,6 @@ import { download, logo } from '../assets';
             Work Experience.
           </h2>
         </motion.div>
-      </>
     );
   };
   

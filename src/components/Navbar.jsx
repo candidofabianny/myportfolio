@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`w-full flex items-center py-6 fixed top-0 z-20 xxs:h-[12vh]`}>
+      className={`w-full flex items-center py-4 fixed top-0 z-20 xxs:h-[12vh]`}>
      <div className="w-full flex justify-center items-center max-w-7xl mx-auto">
      <Link
           to="/"

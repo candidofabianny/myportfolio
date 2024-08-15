@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-import { github, linkedin, send, sendHover } from '../assets';
+import { linkedin, send, sendHover } from '../assets';
 
 const Contact = () => {
   const formRef = useRef();
@@ -25,20 +25,18 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    // sign up on emailjs.com (select the gmail service and connect your account).
-    //click on create a new template then click on save.
     emailjs
       .send(
-        'service_7n0ea5q', // paste your ServiceID here (you'll get one when your service is created).
-        'template_v1qjuwl', // paste your TemplateID here (you'll find it under email templates).
+        'service_7n0ea5q', 
+        'template_v1qjuwl', 
         {
           from_name: form.name,
-          to_name: 'Fabianny Candido', // put your name here.
+          to_name: 'Fabianny Candido', 
           from_email: form.email,
-          to_email: 'candidofabianny@gmail.com', //put your email here.
+          to_email: 'candidofabianny@gmail.com', 
           message: form.message,
         },
-        'DYWE7rVO5lZm-gwW1' //paste your Public Key here. You'll get it in your profile section.
+        'DYWE7rVO5lZm-gwW1' 
       )
       .then(
         () => {
@@ -72,7 +70,7 @@ const Contact = () => {
         alt="fabianny linkedin link"
         className='lg:h-[50px] h-[48px] lg:w-[50px] w-[48px] m-4'
         ></img></a>
-
+        
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -121,16 +119,14 @@ const Contact = () => {
               border-none font-medium resize-none"
             />
           </label>
-
           <button
             type="submit"
             className="live-demo flex justify-center sm:gap-4 
             gap-3 sm:text-[20px] text-[16px] text-timberWolf 
-            font-bold font-beckman items-center py-5
+            font-bold font-lustria items-center py-5
             whitespace-nowrap sm:w-[130px] sm:h-[50px] 
             w-[100px] h-[45px] rounded-[10px] bg-night 
-            hover:bg-battleGray hover:text-eerieBlack 
-            transition duration-[0.2s] ease-in-out"
+            hover:bg-cherry transition duration-[0.2s] ease-in-out"
             onMouseOver={() => {
               document
                 .querySelector('.contact-btn')

@@ -63,7 +63,6 @@ export default {
        },
       fontFamily: {
         arenq: ['Arenq'],
-        beckman: ['Beckman'],
         lustria: ['Lustria'],
         gazpachoHeavy: ['Gazpacho Heavy'],
         overcameBold: ['Overcame Bold'],

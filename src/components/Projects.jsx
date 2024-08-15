@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
@@ -7,8 +7,6 @@ import { click, clickpurple, gitpurple } from '../assets';
 
 
 const Projects = () => {
-  const [active, setActive] = useState('project-2');
-
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
@@ -92,19 +90,18 @@ const Projects = () => {
             </div>
       </div>
     </div>
-    <div className="item item-3">
-      <div className="caption">
-        <h1 className={`${styles.cardTitle} text-yellow`}>SPOTLIGHT</h1>
-        <p className='text-white'>developed during an internship, aimed to empower underserved communities by connecting Atlanta residents with social organizations. Although the project made significant progress, the decision was made to focus on the Android app, leading to the discontinuation of the web version's.</p>
-       <a href='https://spotlight-beta.vercel.app/'>
-        <img src={click} 
-            alt="link"
-            className="h-[55px] w-[55px] p-2"></img></a>
+      <div className="item item-3">
+        <div className="caption">
+          <h1 className={`${styles.cardTitle} text-yellow`}>SPOTLIGHT</h1>
+          <p className='text-white'>developed during an internship, aimed to empower underserved communities by connecting Atlanta residents with social organizations. Although the project made significant progress, the decision was made to focus on the Android app, leading to the discontinuation of the web version's.</p>
+        <a href='https://spotlight-beta.vercel.app/'>
+          <img src={click} 
+              alt="link"
+              className="h-[55px] w-[55px] p-2"></img></a>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
     </div>
   );
 };
